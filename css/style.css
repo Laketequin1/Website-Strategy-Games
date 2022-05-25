@@ -9,6 +9,11 @@
 	--main-decor-color:#ffffff;
   --main-header-background:#ffffff;
 	--main-font-family: 'Poppins', sans-serif;
+
+  --button-home-color: darkcyan;
+  --button-ratings-color: darkcyan;
+  --button-about-color: darkcyan;
+  --button-games-color: darkcyan;
 }
 
 /*────────────────── 
@@ -16,7 +21,7 @@
 ──────────────────*/
 
 .centre {
-  align: text;
+  text-align: center;
 }
 
 /*────────────────── 
@@ -25,6 +30,10 @@
 
 .background {
   background-color: var(--main-background);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
 /*────────────────── 
@@ -40,7 +49,27 @@
 /*────────────────── 
        nav
 ──────────────────*/
+.button button {
+  background-color: darkcyan;
+  border: none;
+  color: white;
+  margin: 6px 0px 6px 6px;
+  padding: 8px 18px;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+}
 
+.button button:hover {
+  background-color: #00c2c2;
+  margin: 6px -4px 6px 2px;
+  padding: 8px 22px;
+}
+
+#nav-home {
+  background-color: var(--button-selected);
+}
 
 /*──────────────────
        home

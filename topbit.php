@@ -25,8 +25,16 @@
 </head>
 
 <body class="background" >
-        
-    <div class="container debug-box">
+
+    <!-- Navigation -->
+    <nav class="button" >
+      <button id="nav-home" type="button" >Home</button>
+      <button type="button"  >Ratings</button>
+      <button type="button"  >About Us</button>
+      <button type="button"  >Games</button>
+    </nav>
+  
+    <div class="container">
     
       <!-- logo -->
       <div class="box logo">
@@ -35,6 +43,6 @@
 
       <!--────────────────HEADER───────────────-->
       <header>
-          <h1>Strategy Games</h1>  
+          <h1 class="centre" >Strategy Games</h1>  
 
       </header> <!-- / banner -->
