@@ -68,7 +68,19 @@ body {
 }
 
 #nav-home {
-  background-color: var(--button-selected);
+  background-color: var(--button-home-color);
+}
+
+#nav-ratings {
+  background-color: var(--button-ratings-color);
+}
+
+#nav-about {
+  background-color: var(--button-about-color);
+}
+
+#nav-games {
+  background-color: var(--button-games-color);
 }
 
 /*──────────────────

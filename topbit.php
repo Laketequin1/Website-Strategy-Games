@@ -18,20 +18,17 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-  <!--JavaScript File-->
-  <script src="/js/script.js"></script>
-
+  
 </head>
 
 <body class="background" >
 
     <!-- Navigation -->
     <nav class="button" >
-      <button id="nav-home" type="button" >Home</button>
-      <button type="button"  >Ratings</button>
-      <button type="button"  >About Us</button>
-      <button type="button"  >Games</button>
+      <button onclick="buttonClicked('--button-home-color', 'index.php')" id="nav-home" type="button" >Home</button>
+      <button onclick="buttonClicked('--button-ratings-color','ratings.php')" id="nav-ratings" type="button" >Ratings</button>
+      <button onclick="buttonClicked('--button-about-color', 'about.php')" id="nav-about" type="button" >About Us</button>
+      <button onclick="buttonClicked('--button-games-color', 'games.php')" id="nav-games" type="button" >Games</button>
     </nav>
   
     <div class="container">
@@ -46,3 +43,7 @@
           <h1 class="centre" >Strategy Games</h1>  
 
       </header> <!-- / banner -->
+
+      <!--JavaScript File-->
+      <script src="/js/script.js">
+      </script>
